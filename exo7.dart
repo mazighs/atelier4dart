@@ -5,3 +5,13 @@ class Tache {
     nombreTotal++;
   }
 }
+void main() {
+  var t1 = Tache("Aller faire les courses");
+  var t2 = Tache("Étudier");
+  var t3 = Tache("Coder en Dart");
+
+  print("Nombre total de tâches : ${Tache.nombreTotal}");
+}
+
+
+
