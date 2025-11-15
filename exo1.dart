@@ -8,7 +8,10 @@ class Couleur {
 
    void afficherCouleur() {
     print("(R:$r, V:$g, B:$b)");
-  
-
   }
 }
+
+
+class Point {
+  double _x, _y;
+  
