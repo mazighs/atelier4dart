@@ -16,3 +16,14 @@ class Livre {
     print("Total de livres créés : $totalLivres");
   }
 }
+class Roman extends Livre {
+  String genre;
+
+  Roman(String titre, String auteur, this.genre, {int pages = 200})
+      : super(titre, auteur, pages: pages);
+
+  void afficherRoman() {
+    print("Titre: $titre, Auteur: $auteur, Genre: $genre, Pages: $pages");
+  }
+}
+
