@@ -8,7 +8,7 @@ class Couleur {
 
    void afficherCouleur() {
     print("(R:$r, V:$g, B:$b)");
-
+  
 
   }
 }
